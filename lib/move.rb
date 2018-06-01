@@ -17,4 +17,5 @@ end
 
 def move(the_board, the_index, the_character = "X")
   the_board[the_index] = the_character
+  the_board
 end
